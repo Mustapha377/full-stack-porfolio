@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import {Routes, Route} from "react-router-dom";
 import Nav from "./nav";
 import Page from "./page";
 import Logo from "./logo";
@@ -23,16 +24,14 @@ function App(){
        
        <div id="main-content">
 
-         <Nav />
-        
-         <Page />
-         <Logo />
-         <Divider />
-         <About/>
-         <Final />
-         <Project/>
-         <ContactForm/>
-
+         <Nav/>
+         <Routes>
+             <Route path="/home" element={<Page />}/>
+             <Route path="/about" element={ <About/>}/>
+             <Route path="/project" element={ <Project/>}/>
+             <Route path="/contact" element={<ContactForm/>}/>
+         </Routes>
+         
        </div>
        
        <Comment />

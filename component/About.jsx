@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import AnimatedSection from "./Animation";
+import Final from "./skillsFinal";
 
 function About(){
 
@@ -25,7 +26,8 @@ function About(){
        </div>
       </div>
    
-  </section>    
+  </section> 
+  <Final />   
   </Element>
   </AnimatedSection>
         

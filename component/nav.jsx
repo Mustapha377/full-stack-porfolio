@@ -46,19 +46,19 @@ const Nav = () => {
               <ul className={`nav-items ${isopen ? "open" : ""}`}>
                <li className={`nav-item ${activeLink === "home" ? "active" : ""}`} >
                <Link 
-               to="home" smooth={true} duration={500} onClick={() => handleSetActive("home")}
+               to="/home" smooth={true} duration={500} onClick={() => handleSetActive("home")}
                >home</Link></li>
 
                <li className={`nav-item ${activeLink === "about" ? "active" : ""}`} ><Link 
-               to="about" smooth={true} duration={500} onClick={() => handleSetActive("about")}
+               to="/about" smooth={true} duration={500} onClick={() => handleSetActive("about")}
                >About</Link></li>
 
                <li className={`nav-item ${activeLink === "project" ? "active" : ""}`} ><Link 
-               to="project" smooth={true} duration={500} onClick={() => handleSetActive("project")}
+               to="/project" smooth={true} duration={500} onClick={() => handleSetActive("project")}
                >Project</Link></li>
 
                <li className={`nav-item ${activeLink === "contact" ? "active" : ""}`} ><Link 
-               to="contact" smooth={true} duration={500} onClick={() => handleSetActive("contact")}
+               to="/contact" smooth={true} duration={500} onClick={() => handleSetActive("contact")}
                >Contact</Link></li>
              </ul>
            

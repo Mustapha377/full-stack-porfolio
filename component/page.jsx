@@ -1,5 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
+import Logo from "./logo";
+import Divider from "./divider";
 
 function Page(){
     return(
@@ -14,6 +16,8 @@ function Page(){
          <br></br> i design and build website for your dream</h2>
            
         </section>
+        <Logo />
+        <Divider />
     </Element>   
         
     )
