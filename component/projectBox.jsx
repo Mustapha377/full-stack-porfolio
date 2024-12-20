@@ -12,7 +12,7 @@ const Box = () => {
   return (
     <AnimatedSection>
       
-         <div className='project-items'>
+         
           <div className="project-box">
             <img></img>
             </div>
@@ -44,7 +44,7 @@ const Box = () => {
                <div  className="project-lan"><h3>css</h3></div>
                <div  className="project-lan"><h3>react</h3></div>
             </div>
-          </div>  
+         
        
      </AnimatedSection>    
   );

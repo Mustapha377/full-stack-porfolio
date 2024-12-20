@@ -336,7 +336,7 @@ p{
 
 .project-items{
     margin-bottom: 3rem;
-    max-width: 400px;
+    max-width: 80vw;
    margin-left: 8px;
    margin-right: 8px;}
 
@@ -346,7 +346,8 @@ p{
     /* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
     box-shadow: 0 5px 8px rgb(0, 0, 0, 0.1),
      -0 -5px 8px rgb(0, 0, 0, 0.1);
-    max-width: 400px;    
+    max-width: 400px; 
+    height: 150px;   
     
 }
 
@@ -413,6 +414,8 @@ overflow: hidden;
 .project-text{
     overflow: hidden;
     transition: height 0.3s ease;
+    max-width: 300px;
+     
 }
 
 .project-text.collapsed{
