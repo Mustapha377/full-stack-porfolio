@@ -5,9 +5,9 @@ import App from "./component/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.strictMode>
+  <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  <React.strictMode/>  
+  </React.StrictMode>  
     )
